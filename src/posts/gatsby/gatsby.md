@@ -5,6 +5,8 @@ date: "2019-06-16"
 
 This is a test!
 
+![Logo](src/posts/kdiry_logo.png)
+
 ## Test 
 
 1. Test
