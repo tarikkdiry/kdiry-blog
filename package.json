@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "develop": "GATSBY_GRAPHQL_IDE=playground CONTENTFUL_SPACE_ID=kpvam4whsk4z CONTENTFUL_ACCESS_TOKEN=gkewNGQJvSXQnajJhpcMl_WbG-u07bnDaL22FgfdnRc gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -19,6 +19,7 @@
     "gatsby-plugin-sharp": "^2.2.1",
     "gatsby-remark-images": "^3.1.2",
     "gatsby-remark-relative-images": "^0.2.2",
+    "gatsby-source-contentful": "^2.1.3",
     "gatsby-source-filesystem": "^2.1.1",
     "gatsby-transformer-remark": "^2.5.0",
     "node-sass": "^4.12.0",

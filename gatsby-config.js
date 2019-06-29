@@ -4,6 +4,13 @@ module.exports = {
     author: 'Tarik Kdiry'
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: 'kpvam4whsk4z',
+        accessToken: 'gkewNGQJvSXQnajJhpcMl_WbG-u07bnDaL22FgfdnRc'
+      }
+    },
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
