@@ -1,10 +1,12 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
+import { Link } from "gatsby";
+import React from "react";
+import Head from '../components/head';
+import Layout from "../components/layout";
 
 const IndexPage = () => {
     return (
         <Layout>
+            <Head title="Home"/>
             <h1>Hello.</h1>
             <p>Heyo, reach me <Link to="/contact">here.</Link></p>
         </Layout>    

@@ -1,10 +1,12 @@
-import React from "react"
+import React from "react";
+import Head from '../components/head';
 // import { Link } from "gatsby"
-import Layout from "../components/layout"
+import Layout from "../components/layout";
 
 const ContactPage = () => {
     return (
         <Layout>
+            <Head title="Contact"/>
             <h1>Contact.</h1>
             <p><a href="https://google.com">Twitter</a></p>
         </Layout>
