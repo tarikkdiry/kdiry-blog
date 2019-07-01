@@ -39,6 +39,7 @@ export const query = graphql`
 
 const Blog = (props) => {
     const options = {
+        // For image rendering
         renderNode: {
             "embedded-asset-block": (node) => {
                 const alt = node.data.target.fields.title['en-US']
