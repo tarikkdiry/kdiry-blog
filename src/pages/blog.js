@@ -1,8 +1,8 @@
 import { graphql, Link, useStaticQuery } from "gatsby";
 import React from "react";
+import Card from '../components/Card';
 import Head from '../components/head';
 import Layout from "../components/layout";
-import blogStyles from './blog.module.scss';
 
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
@@ -28,18 +28,19 @@ const BlogPage = () => {
         <Layout>
             <Head title="Blog"/>
             <h1>Blog.</h1>
-            <ol className={blogStyles.posts}>
                 { data.allContentfulBlogPost.edges.map((edge) => { //iterate over all posts (edges)
                     return (
-                        <li className={blogStyles.post}>
-                            <Link to={`/blog/${edge.node.slug}`}>
-                                <h2>{edge.node.title}</h2>
-                                <p>{edge.node.publishedDate}</p>
-                            </Link>
-                        </li>
+                        <Link to={`/blog/${edge.node.slug}`}>
+                            <Card
+                                title={edge.node.title}
+                                date={edge.node.publishedDate}
+                                url={`/blog/${edge.node.slug}`}
+                                img="https://imgur.com/gallery/Xxpto29"
+                            />
+                            <br></br>
+                        </Link>
                     )
                 })}
-            </ol>
         </Layout>
     )
 }
