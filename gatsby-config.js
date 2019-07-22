@@ -7,6 +7,26 @@ module.exports = {
     // `gatsby-plugin-sass`,
     'gatsby-plugin-react-helmet',
     {
+      resolve: 'gatsby-remark-emojis',
+      options: {
+        // Deactivate the plugin globally (default: true)
+        active : true,
+        // Add a custom css class
+        class  : 'emoji-icon',
+        // Select the size (available size: 16, 24, 32, 64)
+        size   : 64,
+        // Add custom styles
+        styles : {
+          display      : 'inline',
+          margin       : '0',
+          'margin-top' : '1px',
+          position     : 'relative',
+          top          : '5px',
+          width        : '25px'
+        }
+      }
+    },
+    {
       resolve: 'gatsby-source-contentful',
       options: {
         spaceId: 'kpvam4whsk4z',
