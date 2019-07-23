@@ -1,7 +1,7 @@
 import React from "react";
 import Greeting from "../components/Greeting";
 import Head from '../components/head';
-import Layout from "../components/layout";
+import Layout from "../layouts/layout";
 
 const IndexPage = () => {
     return (

@@ -1,8 +1,6 @@
-import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import React from 'react';
-import Head from '../components/head';
-import Layout from '../components/layout';
-
+import Hero from '../components/Hero';
+import BlogPostLayout from '../layouts/BlogPost/blogPostLayout';
 // FOR MARKDOWN
 // export const query = graphql`
 //     query (
@@ -50,13 +48,21 @@ const Blog = (props) => {
     }
     
     return (
-        <Layout>
-            <Head title={props.data.contentfulBlogPost.title} />
-            <h1>{props.data.contentfulBlogPost.title}</h1>
-            <p>{props.data.contentfulBlogPost.publishedDate}</p>
-            {documentToReactComponents(props.data.contentfulBlogPost.body.json, options)}
-
-        </Layout>
+        // <Layout>
+        //     {/* <Head title={props.data.contentfulBlogPost.title} />
+        //     <h1>{props.data.contentfulBlogPost.title}</h1>
+        //     <p>{props.data.contentfulBlogPost.publishedDate}</p>
+        //     {documentToReactComponents(props.data.contentfulBlogPost.body.json, options)} */}
+            
+            
+        // </Layout>
+        <BlogPostLayout>
+            <Hero
+                title={props.data.contentfulBlogPost.title}
+                date={props.data.contentfulBlogPost.publishedDate}
+            />
+            {/* {documentToReactComponents(props.data.contentfulBlogPost.body.json, options)} */}
+        </BlogPostLayout>
     )
 }
 

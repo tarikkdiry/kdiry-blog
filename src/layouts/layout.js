@@ -1,7 +1,7 @@
 import React from "react";
+import Footer from "../components/Footer/footer";
+import Header from "../components/Header/index";
 import "../styles/index.scss";
-import Footer from "./Footer/footer";
-import Header from "./Header/index";
 import layoutStyles from './layout.module.scss';
 
 
@@ -17,4 +17,4 @@ const Layout = (props) => {
     )
 }
 
-export default Layout
+export default Layout 
