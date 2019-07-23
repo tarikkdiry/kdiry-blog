@@ -14,7 +14,7 @@ const BlogPostLayout = (props) => {
         // </div>
         <div className={blogPostLayoutStyles.container}>
             <Header></Header>
-            <div className={blogPostLayoutStyles.content}>
+            <div className={blogPostLayoutStyles.hero}>
                 {props.children}
             </div>
             <Footer></Footer>
