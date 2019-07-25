@@ -1,6 +1,9 @@
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import React from 'react';
-import Hero from '../components/Hero';
+import Hero from '../components/Hero/hero';
 import BlogPostLayout from '../layouts/BlogPost/blogPostLayout';
+import blogContentStyle from '../layouts/BlogPost/blogPostLayout.module.scss';
+
 // FOR MARKDOWN
 // export const query = graphql`
 //     query (
@@ -45,6 +48,21 @@ const Blog = (props) => {
                 return <img alt={alt} src={url}/>
             }
         }
+    }    
+
+    const blogHero = () => {
+        return (
+            <Hero
+                title={props.data.contentfulBlogPost.title}
+                date={props.data.contentfulBlogPost.publishedDate}
+            />
+        )
+    }
+
+    const blogContent = () => {
+        return (
+            documentToReactComponents(props.data.contentfulBlogPost.body.json, options)
+        )
     }
     
     return (
@@ -56,12 +74,18 @@ const Blog = (props) => {
             
             
         // </Layout>
+        // GO BACK AND REMOVE STYLE COUPLING 
+        // FIGURE OUT HOW TO PASS DOWN TWO PROPS TO BLOG LAYOUT
         <BlogPostLayout>
-            <Hero
-                title={props.data.contentfulBlogPost.title}
-                date={props.data.contentfulBlogPost.publishedDate}
-            />
-            <h1>Test</h1>
+            <div>
+                <Hero
+                    title={props.data.contentfulBlogPost.title}
+                    date={props.data.contentfulBlogPost.publishedDate}
+                />
+                <div className={blogContentStyle.content}>
+                    {documentToReactComponents(props.data.contentfulBlogPost.body.json, options)}
+                </div>
+            </div>
         </BlogPostLayout>
     )
 }

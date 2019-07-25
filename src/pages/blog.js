@@ -4,6 +4,7 @@ import Card from '../components/Card';
 import Head from '../components/head';
 import Layout from '../layouts/layout';
 
+
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
         query {

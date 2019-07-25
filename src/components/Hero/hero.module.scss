@@ -1,0 +1,26 @@
+// $bg-img: url('../../../public/images/adrien-olichon.png');
+
+.heroContainer {
+    background-color: #81878C;
+    height: 90vh;
+    // background-image: $bg-img;
+}
+
+.content {
+    position: absolute;
+    text-align: center;
+    font-color: #F0F0F2;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-90%);
+    -ms-transform: translateY(-50%);
+
+    h1 {
+        font-size: 50pt;
+    }
+
+    p {
+        font-size: 25pt;
+    }
+}
