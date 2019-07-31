@@ -1,5 +1,6 @@
 import { graphql, Link, useStaticQuery } from "gatsby";
 import React from 'react';
+import logo from '../../../public/icons/tk_logo_white.png';
 import headerStyles from './index.module.scss';
 
 const Header = () => {
@@ -18,10 +19,12 @@ const Header = () => {
             <nav class="level">
                 <div class="level-left">
                     <div class="level-item">
-                        <Link className={headerStyles.title} activeClassNAme={headerStyles.activeNavItem} to="/">
+                        {/* <Link className={headerStyles.title} activeClassNAme={headerStyles.activeNavItem} to="/">
                             {data.site.siteMetadata.title}
-                        </Link>
-                        {/* <img src={tkLogo} alt="tk"></img> */}
+                        </Link> */}
+                        <div to="/">
+                            <img src={logo} className={headerStyles.logo} alt="tk" to="/"></img>
+                        </div>
                     </div>
                 </div>
             {/* <div class="level-left">

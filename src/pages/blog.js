@@ -3,6 +3,7 @@ import React from "react";
 import Card from '../components/Card';
 import Head from '../components/head';
 import Layout from '../layouts/layout';
+import blogInfoStyles from './blog.module.scss';
 
 
 const BlogPage = () => {
@@ -30,7 +31,10 @@ const BlogPage = () => {
             <Head title="Blog"/>
             <div class="columns">
                 <div class="column is-half">
-                    <h1>Blog.</h1>
+                    <div className={blogInfoStyles}>
+                        <h1>Blog ✍️</h1>
+                        <p></p>
+                    </div>
                 </div>
                 <div class="column">
                     { data.allContentfulBlogPost.edges.map((edge) => { //iterate over all posts (edges)
