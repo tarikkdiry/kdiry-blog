@@ -33,7 +33,7 @@ const BlogPage = () => {
                 <div class="column is-half">
                     <div className={blogInfoStyles}>
                         <h1>Blog ✍️</h1>
-                        <p></p>
+                        <p>Curious as to what I have to say? </p>
                     </div>
                 </div>
                 <div class="column">
