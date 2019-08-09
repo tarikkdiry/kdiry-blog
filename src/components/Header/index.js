@@ -1,6 +1,6 @@
 import { graphql, Link, useStaticQuery } from "gatsby";
 import React from 'react';
-import logo from '../../../public/icons/tk_logo_white.png';
+import logo from '../../assets/icons/tk_logo_white.png';
 import headerStyles from './index.module.scss';
 
 const Header = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../Profile/index.js";
+import Profile from '../Profile/index';
 import greetingStyles from './index.module.scss';
 
 const Greeting = () => {

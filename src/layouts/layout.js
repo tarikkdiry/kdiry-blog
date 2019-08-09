@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../components/Footer/footer";
 import Header from "../components/Header/index";
 import "../styles/index.scss";
 import layoutStyles from './layout.module.scss';
@@ -12,7 +11,7 @@ const Layout = (props) => {
             <div className={layoutStyles.content}>
                 {props.children}
             </div>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     )
 }

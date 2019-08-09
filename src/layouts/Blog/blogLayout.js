@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../components/Footer/footer";
 import Header from "../../components/Header/index";
 import Hero from "../../components/Hero/index";
 import Layout from "../layout";
@@ -15,7 +14,7 @@ const BlogLayout = (props) => {
                 <div className={blogLayoutStyles.content}>
                     {props.children}
                 </div>
-                <Footer></Footer>
+                {/* <Footer></Footer> */}
             </div>
         </div>
         </Layout>
