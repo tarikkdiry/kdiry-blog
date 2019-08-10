@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileImage from "../../assets/images/tarik_profile.png";
+import ProfileImage from '../../assets/images/tarik_profile.png';
 import profileStyles from './index.module.scss';
 
 const Profile = () => {

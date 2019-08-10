@@ -9,7 +9,8 @@ const Greeting = () => {
                 <Profile></Profile>
             </div>
             <h1>Hi! 👋 I'm Tarik Kdiry</h1>
-            <h3>Stay tuned...big things are coming 💻🙏</h3>
+            <h3>Engineer. Traveler. Writer.</h3>
+            <h5>Stay tuned...big things are coming 💻🙏</h5>
         </div>
     )
 }
