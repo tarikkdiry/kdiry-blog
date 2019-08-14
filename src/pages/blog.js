@@ -31,9 +31,11 @@ const BlogPage = () => {
             <Head title="Blog"/>
             <div class="columns">
                 <div class="column is-half">
-                    <div className={blogInfoStyles}>
-                        <h1>Blog. ✍️</h1>
-                        <p></p>
+                    <div class="featured">
+                        <div className={blogInfoStyles}>
+                            <h1>Blog. ✍🏼</h1>
+                            <p></p>
+                        </div>
                     </div>
                 </div>
                 <div class="column">
