@@ -7,7 +7,7 @@ const ContactPage = () => {
     return (
         <Layout>
             <Head title="Contact"/>
-            <h1>Contact.📬</h1>
+            <h1>Contact.</h1>
             {/* <p><a href="https://google.com">Twitter</a></p> */}
         </Layout>
     )
