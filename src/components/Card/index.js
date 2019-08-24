@@ -1,29 +1,26 @@
 import React from "react";
+import testImage from "../../assets/images/tarik_profile.png";
+import "../Card/index.scss";
 
 const Card = ({title, date, url, img}) => {
     return (
-        <div class="card">
-            <div class="card-content">
-            <p class="title">
-                {title}
-            </p>
-            <p class="subtitle">
-                {date}
-            </p>
+        // <div class="card">
+        //     <div class="card-content">
+        //     <p class="title">
+        //         {title}
+        //     </p>
+        //     <p class="subtitle">
+        //         {date}
+        //     </p>
+        //     </div>
+        // </div>
+        <div class="contentCard">
+            <img src={testImage} alt="Placeholder"/>
+            <div class="container">
+                <h4>{title}</h4>
+                <p>{date}</p>
             </div>
-            {/* <footer class="card-footer">
-            <p class="card-footer-item">
-                <span>
-                View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
-                </span>
-            </p>
-            <p class="card-footer-item">
-                <span>
-                Share on <a href="#">Facebook</a>
-                </span>
-            </p>
-            </footer> */}
-      </div>
+        </div>
     )
 }
 
