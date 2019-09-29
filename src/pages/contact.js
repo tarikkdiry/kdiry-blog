@@ -15,7 +15,6 @@ const ContactPage = () => {
                 <h3>Drop me a note!</h3>
                 <ContactForm></ContactForm>
             </div>
-            
         </Layout>
     )
 }

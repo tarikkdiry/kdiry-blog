@@ -1,8 +1,7 @@
 import React from "react";
-import testImage from "../../assets/images/tarik_profile.png";
 import "../Card/index.scss";
 
-const Card = ({title, date, url, img}) => {
+const Card = ({title, date, url}) => {
     return (
         // <div class="card">
         //     <div class="card-content">
@@ -15,7 +14,7 @@ const Card = ({title, date, url, img}) => {
         //     </div>
         // </div>
         <div class="contentCard">
-            <img src={testImage} alt="Placeholder"/>
+            {/* <img src={testImage} alt="Placeholder"/> */}
             <div class="container">
                 <h4>{title}</h4>
                 <p>{date}</p>
