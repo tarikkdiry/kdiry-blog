@@ -1,5 +1,25 @@
 $font-white: #F0F0F2;
 
+.contentCard {
+
+}
+
 .container {
     color: $font-white;
+
+    h4 {
+        font-size: 28pt;
+    }
+
+    h6 {
+        // font-style: italic;
+        font-weight: normal;
+        font-size: 12pt;
+    }
+
+    p {
+        font-size: 10pt;
+        margin-bottom: 10px;
+        // font-style: italic;
+    }
 }

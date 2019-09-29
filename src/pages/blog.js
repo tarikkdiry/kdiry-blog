@@ -19,13 +19,17 @@ const BlogPage = () => {
                 node {
                     title
                     slug
-                    publishedDate(formatString: "MMMM Do, YYYY")
+                    publishedDate(formatString: "MMMM D, YYYY")
+                    body {
+                        json
+                    }
+                    forward
                 }
             }
             }
         }
     `)
-        
+ 
     return (
         <Layout>
             <Head title="Blog"/>
@@ -50,6 +54,7 @@ const BlogPage = () => {
                                     title={edge.node.title}
                                     date={edge.node.publishedDate}
                                     url={`/blog/${edge.node.slug}`}
+                                    forward={edge.node.forward}
                                     img="https://imgur.com/gallery/Xxpto29"
                                 />
                                 <br></br>
