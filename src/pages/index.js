@@ -1,15 +1,19 @@
 import React from "react";
 import Greeting from "../components/Greeting";
 import Head from '../components/head';
+import Header from "../components/Header";
 import Layout from "../layouts/layout";
+import About from "../pages/about";
+import Contact from "../pages/contact";
 
 const IndexPage = () => {
     return (
         <Layout>
             <Head title="Home"/>
+            <Header></Header>
             <Greeting></Greeting>
-              {/* <h1>Hello.</h1>
-            <p>Heyo, reach me <Link to="/contact">here.</Link></p> */}
+            <About></About>
+            <Contact></Contact>
         </Layout>    
     )
 }

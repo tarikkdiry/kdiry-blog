@@ -19,6 +19,7 @@ const Card = ({title, date, url, forward}) => {
                 <p>{date}</p>
                 <h4>{title}</h4>
                 <h6>{forward}</h6>
+                <br></br>
             </div>
         </div>
     )

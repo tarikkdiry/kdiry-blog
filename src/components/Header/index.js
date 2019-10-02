@@ -19,31 +19,25 @@ const Header = () => {
             <nav class="level">
                 <div class="level-left">
                     <div class="level-item">
-                        {/* <Link className={headerStyles.title} activeClassNAme={headerStyles.activeNavItem} to="/">
-                            {data.site.siteMetadata.title}
-                        </Link> */}
                         <div to="/">
-                            <img src={logo} className={headerStyles.logo} alt="tk" to="/"></img>
+                            <Link to="/">
+                                <img src={logo} className={headerStyles.logo} alt="tk" to="/"></img>
+                            </Link>
                         </div>
                     </div>
                 </div>
-            {/* <div class="level-left">
-                <Link>
-                    <img src="tk_logo.png" alt=""></img>
-                </Link>
-            </div>    */}
             {/* RIGHT SIDE */}
             <div class="level-right">
                 <div class="right-items">
                     <ul className={headerStyles.navList}>
                         <li>
-                            <p><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link></p>
+                            {/* <p><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link></p> */}
                         </li>
                         <li>
-                            <p><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">About</Link></p>
+                            {/* <p><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">About</Link></p> */}
                         </li>
                         <li>
-                            <p><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact">Contact</Link></p>
+                            {/* <p><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact">Contact</Link></p> */}
                         </li>
                         <li>
                             <p><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link></p>

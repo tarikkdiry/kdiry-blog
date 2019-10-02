@@ -2,6 +2,7 @@ import { graphql, Link, useStaticQuery } from "gatsby";
 import React from "react";
 import Card from '../components/Card';
 import Head from '../components/head';
+import Header from '../components/Header';
 import Layout from '../layouts/layout';
 import blogInfoStyles from './blog.module.scss';
 
@@ -33,6 +34,7 @@ const BlogPage = () => {
     return (
         <Layout>
             <Head title="Blog"/>
+            <Header></Header>
             <div class="topContent">
                 <div class="columns">
                     <div class="column is-half">
