@@ -3,6 +3,7 @@ import AboutGrid from "../components/AboutGrid/index";
 import Head from '../components/head';
 import Layout from "../layouts/layout";
 import "../styles/about.scss";
+import '../styles/global.scss';
 
 const AboutPage = () => {
     return (

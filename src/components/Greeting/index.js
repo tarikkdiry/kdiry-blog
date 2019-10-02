@@ -1,6 +1,7 @@
 import React from "react";
 import Profile from '../Profile/index';
 import greetingStyles from './index.module.scss';
+import '../../styles/global.scss';
 
 const Greeting = () => {
     return (
