@@ -1,4 +1,4 @@
-$font-white: #F0F0F2;
+$font-white: #F2EDE9;
 
 .contentCard {
     width: 50%;
@@ -6,7 +6,7 @@ $font-white: #F0F0F2;
 }
 
 .container {
-    color: $font-white;
+    // color: #F2913D;
 
     h4 {
         font-size: 28pt;
@@ -16,6 +16,7 @@ $font-white: #F0F0F2;
         // font-style: italic;
         font-weight: normal;
         font-size: 12pt;
+        color: $font-white;
     }
 
     p {

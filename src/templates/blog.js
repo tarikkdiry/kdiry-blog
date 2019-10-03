@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from '../components/Hero/hero';
 import BlogPostLayout from '../layouts/BlogPost/blogPostLayout';
 import blogContentStyle from '../layouts/BlogPost/blogPostLayout.module.scss';
+import '../styles/global.scss';
 
 // FOR MARKDOWN
 // export const query = graphql`
@@ -76,7 +77,6 @@ const Blog = (props) => {
             
         // </Layout>
         // GO BACK AND REMOVE STYLE COUPLING 
-        // FIGURE OUT HOW TO PASS DOWN TWO PROPS TO BLOG LAYOUT
         <BlogPostLayout>
             <div>
                 <Hero

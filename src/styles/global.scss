@@ -1,6 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+$top-border: #DADFE1; // #FF5F0F
+$font-white: #F2EDE9;
+// $font-h1:
+$font-h2: $top-border;
+// $muted-gold
+$background-color: #4A7078;
 
-h1, h2, h3, h4, h5, h6, p {
-    // color: red;
-    font-family: 'Roboto', sans-serif;
+html {
+    border-top: 5px solid $top-border;
+    background-color: $background-color;
+    
+    h1, h2, h3, h4, h5, h6, p {
+        // color: red;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    p {
+        color: $font-white;
+    }
+    
+    h1, h3 {
+        color: $font-white;
+    }
+    
+    h2, h4 {
+        color: $font-h2;
+    }
 }
+
+

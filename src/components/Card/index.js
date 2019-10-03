@@ -1,4 +1,5 @@
 import React from "react";
+import '../../styles/global.scss';
 import "../Card/index.scss";
 
 const Card = ({title, date, url, forward}) => {
