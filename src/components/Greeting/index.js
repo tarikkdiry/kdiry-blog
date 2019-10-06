@@ -1,7 +1,7 @@
 import React from "react";
+import '../../styles/global.scss';
 import Profile from '../Profile/index';
 import greetingStyles from './index.module.scss';
-import '../../styles/global.scss';
 
 const Greeting = () => {
     return (
@@ -9,7 +9,7 @@ const Greeting = () => {
             <div className={greetingStyles.profile}>
                 <Profile></Profile>
             </div>
-            <h1>Hi! I'm Tarik Kdiry</h1>
+            <h1>Tarik Kdiry</h1>
             <h3>Software Engineer</h3>
         </div>
     )
