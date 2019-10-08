@@ -2,8 +2,8 @@ import React from "react";
 import AboutGrid from "../components/AboutGrid/index";
 import Head from '../components/head';
 import Layout from "../layouts/layout";
-import "../styles/about.scss";
-import '../styles/global.scss';
+import aboutStyles from '../styles/global.scss';
+import '../styles/PageStyles/about.scss';
 
 const AboutPage = () => {
     return (
@@ -29,4 +29,3 @@ const AboutPage = () => {
 }
 
 export default AboutPage 
-
