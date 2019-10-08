@@ -1,46 +1,7 @@
-.posts {
-    list-style-type: none;
-    margin: 0;
-}
-
-.topContent {
-    min-height: 100vh;
+.heading {
+    margin-left: 5%;
 }
 
 h1 {
     font-size: 75pt;
-}
-
-p {
-    font-size: 12pt;
-}
-
-.post {
-    margin: 1.5rem 1;
-
-    a {
-        background: #81878C;
-        color: #171F26;
-        display: block;
-        padding: 1rem;
-        text-decoration: none;
-    }
-
-    a:hover {
-        background: #81878C;
-    }
-
-    h1 {
-        font-size: 75pt;
-    }
-
-    h2 {
-        margin-bottom: 0;
-    }
-
-    p {
-        color: #F0F0F2;
-        font-size: .8rem;
-        font-style: italic;
-    }
 }

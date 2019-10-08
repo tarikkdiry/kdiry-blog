@@ -35,21 +35,21 @@ const BlogPage = () => {
         <Layout>
             <Head title="Blog"/>
             <Header></Header>
-            <div class="topContent">
-                <div class="columns">
-                    <div class="column is-half">
-                        <div class="featured">
-                            <div className={blogInfoStyles}>
+            <div className={blogInfoStyles.heading}>
+                {/* <div class="columns"> */}
+                    {/* <div class="column is-half"> */}
+                        {/* <div class="featured"> */}
+                            {/* <div className={blogInfoStyles}> */}
                                 <h1>Blog.</h1>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                                {/* <p></p> */}
+                            {/* </div> */}
+                        {/* </div> */}
+                    {/* </div> */}
+                {/* </div> */}
             </div>
-            <div class="wrapper">
-                <div class="column">
-                    { data.allContentfulBlogPost.edges.map((edge) => { //iterate over all posts (edges)
+            {/* <div class="wrapper"> */}
+                {/* <div class="column"> */}
+                    { data.allContentfulBlogPost.edges.map((edge) => { //iterate over all posts/each edge
                         return (
                             <Link to={`/blog/${edge.node.slug}`}>
                                 <Card
@@ -63,8 +63,8 @@ const BlogPage = () => {
                             </Link>
                         )
                     })}
-                </div>
-            </div>
+                {/* </div> */}
+            {/* </div> */}
         </Layout>
     )
 }
