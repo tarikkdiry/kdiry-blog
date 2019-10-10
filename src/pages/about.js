@@ -1,8 +1,8 @@
 import React from "react";
 import AboutGrid from "../components/AboutGrid/index";
 import Head from '../components/head';
+import Timeline from "../components/VerticalTimeline/index";
 import Layout from "../layouts/layout";
-import aboutStyles from '../styles/global.scss';
 import '../styles/PageStyles/about.scss';
 
 const AboutPage = () => {
@@ -24,6 +24,13 @@ const AboutPage = () => {
                     Sed et dignissim turpis, quis scelerisque lorem. Sed convallis molestie maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque eu eros vitae risus elementum facilisis sit amet eu justo. Etiam mi neque, vehicula in sem eu, malesuada pulvinar mauris. Quisque vitae rutrum erat. Donec eget justo non ex vehicula pharetra. Nulla varius nulla venenatis ullamcorper fringilla. Duis vel iaculis elit, et sagittis ligula.
                 </p>
             </div>
+            <br></br>
+            <div>
+                <center><h2>Education and Career</h2></center>
+                <center><h4>See what I've been up to these past few years...</h4></center>
+                <Timeline></Timeline>
+            </div>
+            <br></br>
         </Layout>
     )
 }
