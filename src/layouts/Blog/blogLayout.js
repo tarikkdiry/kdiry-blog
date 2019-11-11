@@ -15,7 +15,6 @@ const BlogLayout = (props) => {
                 <div className={blogLayoutStyles.content}>
                     {props.children}
                 </div>
-                {/* <Footer></Footer> */}
             </div>
         </div>
         </Layout>

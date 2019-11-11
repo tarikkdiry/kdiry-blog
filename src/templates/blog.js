@@ -52,30 +52,22 @@ const Blog = (props) => {
         }
     }    
 
-    const blogHero = () => {
-        return (
-            <Hero
-                title={props.data.contentfulBlogPost.title}
-                date={props.data.contentfulBlogPost.publishedDate}
-            />
-        )
-    }
+    // const blogHero = () => {
+    //     return (
+    //         <Hero
+    //             title={props.data.contentfulBlogPost.title}
+    //             date={props.data.contentfulBlogPost.publishedDate}
+    //         />
+    //     )
+    // }
 
-    const blogContent = () => {
-        return (
-            documentToReactComponents(props.data.contentfulBlogPost.body.json, options)
-        )
-    }
+    // const blogContent = () => {
+    //     return (
+    //         documentToReactComponents(props.data.contentfulBlogPost.body.json, options)
+    //     )
+    // }
     
     return (
-        // <Layout>
-        //     {/* <Head title={props.data.contentfulBlogPost.title} />
-        //     <h1>{props.data.contentfulBlogPost.title}</h1>
-        //     <p>{props.data.contentfulBlogPost.publishedDate}</p>
-        //     {documentToReactComponents(props.data.contentfulBlogPost.body.json, options)} */}
-            
-            
-        // </Layout>
         // GO BACK AND REMOVE STYLE COUPLING 
         <BlogPostLayout>
             <div>

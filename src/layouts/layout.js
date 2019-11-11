@@ -3,7 +3,6 @@ import '../styles/global.scss';
 import "../styles/index.scss";
 import layoutStyles from './layout.module.scss';
 
-
 const Layout = (props) => {
     return (
         <div className={layoutStyles.container}>
@@ -11,7 +10,6 @@ const Layout = (props) => {
             <div className={layoutStyles.content}>
                 {props.children}
             </div>
-            {/* <Footer></Footer> */}
         </div>
     )
 }
