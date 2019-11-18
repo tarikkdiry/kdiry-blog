@@ -38,6 +38,7 @@ const BlogPage = () => {
             <div className={blogInfoStyles.heading}>
                 <h1>Blog.</h1>
             </div>
+            <div className={blogInfoStyles.cards}>
                 { data.allContentfulBlogPost.edges.map((edge) => { //iterate over all posts/each edge
                     return (
                         <Link to={`/blog/${edge.node.slug}`}>
@@ -52,6 +53,7 @@ const BlogPage = () => {
                         </Link>
                     )
                 })}
+            </div>
         </Layout>
     )
 }

@@ -1,32 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 .container {
-    // margin-left: auto;
-    // margin-right: auto;
-    text-align: center;
-    margin-top: 5%;
-    height: 80vh;
-    // font-family: 'Roboto', sans-serif;
+    height: 100vh;
 
-    h1 {
-        font-size: 50pt;
-        // color: red;
-        // text-align: center;
-        font-family: 'Exo', sans-serif;
-        // color: red;
+    p {
+        color: #FD9374;
+        // #FF6B00
+        // #FD9374
     }
 
-    
+    h1 {
+        font-size: 60pt;
+        font-family: 'Exo', sans-serif;
+    }
+
+    h4 {
+        color: #81878C;
+    }
 }
 
 .profile {
-    // position: fixed;
-    display: inline-block;
     margin: 0 auto;
-    top: 50%;
-    left: 50%;
-    /* bring your own prefixes */
-    // transform: translate(-50%, -50%);
     font-family: 'Roboto', sans-serif;
+ }
+
+ .info {
+     
  }
 

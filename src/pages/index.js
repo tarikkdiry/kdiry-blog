@@ -1,5 +1,5 @@
 import React from "react";
-// import Greeting from "../components/Greeting";
+import Greeting from "../components/Greeting";
 import Head from '../components/head';
 import Header from '../components/Header';
 import Layout from "../layouts/layout";
@@ -11,7 +11,7 @@ const IndexPage = () => {
         <Layout>
             <Head title="Home"/>
             <Header></Header>
-            {/* <Greeting></Greeting> */}
+            <Greeting></Greeting>
             <About></About>
             {/* <Timeline></Timeline> */}
             {/* <Contact></Contact> */}
