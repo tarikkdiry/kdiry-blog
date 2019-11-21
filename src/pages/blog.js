@@ -34,7 +34,6 @@ const BlogPage = () => {
     return (
         <Layout>
             <Head title="Blog"/>
-            <Header></Header>
             <div className={blogInfoStyles.heading}>
                 <h1>Blog.</h1>
             </div>
