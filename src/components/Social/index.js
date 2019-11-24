@@ -1,7 +1,10 @@
-import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from "react-router-dom";
+// import { SocialIcon } from 'react-social-icons';
+// import "../Social/index.module.scss";
 
-const Social = () => {
-    
-}
+// const Social = () => {
+//     return (
+
+//     )
+// }
+
+// export default Social

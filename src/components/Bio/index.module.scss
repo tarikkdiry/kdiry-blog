@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 75%;
+
+    h2 {
+        font-size: 50pt;
+    }
+
+    a {
+        color: #FD9374;
+    }
+
+    a:hover {
+        filter: brightness(55%);
+    }
+
+    .me {
+        color: #FD9374;
+    }
+    
+    // @media screen and (min-width: 800px) {
+        .bio {
+            flex: 1;
+        }
+
+        .profile {
+            flex: 1;
+        }
+    // }
+}

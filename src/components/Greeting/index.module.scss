@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+$button-color: red;
 
 .container {
     height: 100vh;
@@ -7,6 +8,10 @@
         color: #FD9374;
         // #FF6B00
         // #FD9374
+    }
+
+    a:hover {
+        filter: brightness(55%);
     }
 
     h1 {

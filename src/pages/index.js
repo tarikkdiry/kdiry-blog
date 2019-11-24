@@ -1,9 +1,8 @@
 import React from "react";
+import About from "../components/About";
 import Greeting from "../components/Greeting";
 import Head from '../components/head';
-import Header from '../components/Header';
 import Layout from "../layouts/layout";
-import About from "../components/About";
 import '../styles/global.scss';
 
 const IndexPage = () => {

@@ -40,7 +40,8 @@
   },
   "devDependencies": {
     "env-cmd": "^9.0.3",
-    "prettier": "^1.17.1"
+    "prettier": "^1.17.1",
+    "react-social-icons": "^4.1.0"
   },
   "repository": {
     "type": "git",
