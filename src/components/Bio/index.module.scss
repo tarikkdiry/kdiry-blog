@@ -2,10 +2,13 @@
     display: flex;
     flex-direction: row;
     height: 100vh;
-    width: 75%;
 
     h2 {
         font-size: 50pt;
+
+        @media screen and (max-width: 400px) {
+            font-size: 25pt;
+        }
     }
 
     a {
@@ -19,14 +22,22 @@
     .me {
         color: #FD9374;
     }
-    
-    // @media screen and (min-width: 800px) {
-        .bio {
-            flex: 1;
-        }
 
-        .profile {
-            flex: 1;
+    .bio {
+        display: flex;
+    }
+
+    .profile {
+        padding-left: 10%;
+    }
+
+    .info {
+        max-width: 70%;
+    }
+
+    @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
         }
-    // }
+    }
 }

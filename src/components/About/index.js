@@ -6,13 +6,13 @@ import Timeline from "../VerticalTimeline/index";
 
 const About = () => {
     return (
-        <div>
-            {/* <Head title="Home"/> */}
+        <div className={aboutStyles.container}>
             <div className={aboutStyles.educationCareer}>
                 <Bio></Bio>
+            </div>
+            <div className={aboutStyles.timeline}>
                 <Timeline></Timeline>
             </div>
-            <br></br>
         </div>
     )
 }
