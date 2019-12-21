@@ -1,5 +1,4 @@
 import React from "react";
-import Profile from "../Profile/index";
 import bioStyles from "../Bio/index.module.scss";
 
 const Bio = () => {
@@ -24,9 +23,7 @@ const Bio = () => {
                         Check out my timeline below!
                     </p>
                     </div>
-                <div className={bioStyles.profile}>
-                    {/* <Profile></Profile> */}
-                </div>
+                
             </div>
         </div>
     )

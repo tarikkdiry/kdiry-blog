@@ -10,6 +10,7 @@ const About = () => {
             <div className={aboutStyles.educationCareer}>
                 <Bio></Bio>
             </div>
+            <br></br>
             <div className={aboutStyles.timeline}>
                 <Timeline></Timeline>
             </div>
