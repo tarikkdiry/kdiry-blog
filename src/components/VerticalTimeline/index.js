@@ -27,6 +27,9 @@ const Timeline = () => {
                 <p style={{color: '#4A7078' }}>
                     While I dabbled in various extra-curriculars, I was primarily the Editor-in-Chief of the campus newspaper,<i style={{fontWeight: 'bold'}}> The Stute</i>. 10/16 to 10/17.
                 </p>
+                <p style={{ color: '#4A7078'}}>
+                    In addition, I took on the role of Teacher's Assistant for course E-115 Introduction to Programming, an exploratory programming course taught in C++ for all Freshman Engineering students.
+                </p>
                 <br></br>
                 <h4 style={{ color: '#4A7078' }}>
                     C++ | Java | Ruby | Python | Javascript 
@@ -54,27 +57,6 @@ const Timeline = () => {
                 </h4>
                 <p style={{ color: '#4A7078' }}>
                     Stroudsburg, PA | Princeton, NJ
-                </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{ background: '#DADFE1', color: '#F2EDE9' }}
-                contentArrowStyle={{ borderRight: '7px solid  #DADFE1' }}
-                date="September, 2016 - January, 2017"
-                iconStyle={{ background: '#4A7078', color: '#F2EDE9' }}
-                // icon={<WorkIcon />}
-            >
-                <h3 className="vertical-timeline-element-title" style={{ color: '#4A7078' }}>Stevens Institute of Technology</h3>
-                {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
-                <p style={{ color: '#4A7078' }}>
-                    Teacher's Assistant for course E-115 Introduction to Programming, an exploratory programming course taught in C++ for all Freshman Engineering students.
-                </p>
-                <br></br>
-                <h4 style={{ color: '#4A7078' }}>
-                    C++
-                </h4>
-                <p style={{ color: '#4A7078' }}>
-                    Hoboken, NJ
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
