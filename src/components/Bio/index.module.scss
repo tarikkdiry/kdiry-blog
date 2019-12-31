@@ -1,43 +1,45 @@
 .container {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    // height: 100vh;
 
-    h2 {
-        font-size: 50pt;
+    
+}
 
-        @media screen and (max-width: 400px) {
-            font-size: 25pt;
-        }
+h2 {
+    font-size: 50pt;
+
+    @media screen and (max-width: 400px) {
+        font-size: 25pt;
     }
+}
 
-    a {
-        color: #FD9374;
-    }
+a {
+    color: #FD9374;
+}
 
-    a:hover {
-        filter: brightness(55%);
-    }
+a:hover {
+    filter: brightness(55%);
+}
 
-    .me {
-        color: #FD9374;
-    }
+.me {
+    color: #FD9374;
+}
 
-    .bio {
-        display: flex;
-    }
+.bio {
+    display: flex;
+}
 
-    .profile {
-        padding-left: 10%;
-    }
+.profile {
+    padding-left: 10%;
+}
 
-    .info {
-        max-width: 70%;
-    }
+.info {
+    max-width: 70%;
+}
 
-    @media screen and (max-width: 600px) {
-        .column {
-          width: 100%;
-        }
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
     }
 }
