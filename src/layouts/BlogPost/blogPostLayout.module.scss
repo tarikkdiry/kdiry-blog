@@ -21,7 +21,26 @@
     margin-right: 20%;
     // padding-left: 15%;
 
-    h1, h2, h3, h4 {
+    hr {
+        height: 1px;
+        border: none;
+        color: #F0F0F2;
+        background-color: #F0F0F2;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
         color: #FD9374;
+    }
+
+    h1 { 
+        font-size: 45pt;
+    }
+
+    h4 {
+        font-size: 35pt;
+    }
+
+    h5 {
+        font-size: 20pt;
     }
 }
