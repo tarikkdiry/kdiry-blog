@@ -14,6 +14,7 @@ const About = () => {
             <div className={aboutStyles.timeline}>
                 <Timeline></Timeline>
             </div>
+            <h6></h6>
         </div>
     )
 }
