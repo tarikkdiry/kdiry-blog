@@ -29,5 +29,11 @@
     p {
         font-size: 25pt;
         color: #FD9374;
+
+        @media screen and (max-width: 400px) {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
     }
 }
+
