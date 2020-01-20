@@ -1,10 +1,17 @@
-// import { SocialIcon } from 'react-social-icons';
-// import "../Social/index.module.scss";
+import React from "react";
+import socialStyles from "../Social/index.module.scss";
 
-// const Social = () => {
-//     return (
+const Social = ({name, url}) => {
+    return (
+        <div className={socialStyles.container}>
+            {/* <Link to=""> */}
+                <div className={socialStyles.circle}>
+                    <div className={socialStyles.icon}>
+                    </div>
+                </div>
+            {/* </Link> */}
+        </div>
+    )
+}
 
-//     )
-// }
-
-// export default Social
+export default Social
