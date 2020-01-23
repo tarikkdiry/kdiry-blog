@@ -1,15 +1,15 @@
-import { SocialIcon } from 'react-social-icons';
+import React from "react";
 import socialStyles from "../Social/index.module.scss";
 
-const Social = ({name, icon, color}) => {
+const Social = ({name, url}) => {
     return (
         <div className={socialStyles.container}>
-            <div className={socialStyles.button}>
-                
-            </div>
-            <div className={socialStyles.icon}>
-
-            </div>
+            {/* <Link to=""> */}
+                <div className={socialStyles.circle}>
+                    <div className={socialStyles.icon}>
+                    </div>
+                </div>
+            {/* </Link> */}
         </div>
     )
 }
