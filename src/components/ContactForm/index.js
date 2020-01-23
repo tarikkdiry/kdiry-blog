@@ -1,24 +1,30 @@
 import React from "react";
-import './index.scss';
+import contactFormStyles from "./index.module.scss";
 
 const ContactForm = () => {
     return (
-        <div class="field">
-            <br></br>
-            <div class="control">
-                <input class="input" type="text" placeholder="Name"></input>
-            </div>
-            <br></br>
-            <div class="control">
-                <input class="input" type="text" placeholder="Email"></input>
-            </div>
-            <br></br>
-            <div class="control">
-                <textarea class="textarea" placeholder="Let's hear it!"></textarea>
-            </div>
-            <br></br>
-            <div class="submitButton">
-                <a class="button">Submit</a>
+        <div className={contactFormStyles.container}>
+            <h2>Wanna chat?</h2>
+            <div className={contactFormStyles.form}>
+                <div class="field">
+                    <p class="control">
+                        <input class="input" type="email" placeholder="Name" />
+                        {/* <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                        </span> */}
+                        {/* <span class="icon is-small is-right">
+                            <i class="fas fa-check"></i>
+                        </span> */}
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                        <input class="input" type="password" placeholder="Email" />
+                        {/* <span class="icon is-small is-left">
+                            <i class="fas fa-lock"></i>
+                        </span> */}
+                    </p>
+                </div>
             </div>
         </div>
     )
