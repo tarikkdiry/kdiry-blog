@@ -16,6 +16,9 @@ const Layout = (props) => {
             <div className={layoutStyles.content}>
                 {props.children}
             </div>
+            <br></br>
+            <br></br>
+            {/* <Footer></Footer> */}
         </div>
     )
 }
