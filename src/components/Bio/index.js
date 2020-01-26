@@ -1,5 +1,6 @@
 import React from "react";
 import bioStyles from "../Bio/index.module.scss";
+import '../../styles/global.scss';
 
 const Bio = () => {
     return (

@@ -1,6 +1,7 @@
 import React from "react";
 // import '../styles/PageStyles/about.scss';
 import aboutStyles from "../About/index.module.scss";
+import '../../styles/global.scss';
 import Bio from "../Bio/index";
 import Timeline from "../VerticalTimeline/index";
 

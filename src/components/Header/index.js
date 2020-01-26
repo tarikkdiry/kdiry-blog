@@ -17,25 +17,17 @@ const Header = () => {
         <header className={headerStyles.header}>
             {/* LEFT SIDE */}
             <nav class="level">
-                {/* <div class="level-left"> */}
-                    {/* <div class="level-item"> */}
-                        <div to="/">
-                            <Link to="/">
-                                <img src={logo} className={headerStyles.logo} alt="tk" to="/"></img>
-                            </Link>
-                        </div>
-                    {/* </div> */}
-                {/* </div> */}
+                <div to="/">
+                    <Link to="/">
+                        <img src={logo} className={headerStyles.logo} alt="tk" to="/"></img>
+                    </Link>
+                </div>
             {/* RIGHT SIDE */}
-            <div class="level-right">
                 <div class="right-items">
                     <ul>
-                        <li>
-                            <p><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link></p>
-                        </li>
+                        <p><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link></p>
                     </ul>
                 </div>
-            </div>
             </nav>
         </header>
     )

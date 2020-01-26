@@ -7,12 +7,42 @@ $font-white: #F2EDE9;
 $font-h2: $top-border;
 $background-color: #4A7078;
 
+//For handling screen sizes
+$break-small: 480px;
+$break-large: 1200px;
+
 html {
     border-top: 5px solid $top-border;
     background-color: $background-color;
+
+    // Font sizes
+    h1 {
+        font-size: 60pt;
+
+        @media screen and (max-width: $break-small) {
+            font-size: 35pt;
+        }
+    }
+
+    h2 {
+        font-size: 45pt;
+
+        @media screen and (max-width: $break-small) {
+            font-size: 30pt;
+        }
+    }
+
+    h3 {
+        font-size: 30pt;
+
+        @media screen and (max-width: $break-small) {
+            font-size: 20pt;
+        }
+    }
+
+
     
     h1, h2, h3, h4, h5, h6, p {
-        // color: red;
         font-family: 'Exo', sans-serif;
     }
     
@@ -27,4 +57,5 @@ html {
     h2, h4 {
         color: $font-h2;
     }
+
 }
