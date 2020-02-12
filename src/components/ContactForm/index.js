@@ -20,7 +20,7 @@ const ContactForm = () => {
                 <div class="field">
                     <p class="control">
                         <input class="input" type="password" placeholder="Email" />
-                        {/* <span class="icon is-small is-left">
+                        {/* <span class="icon is-small is-left"> 
                             <i class="fas fa-lock"></i>
                         </span> */}
                     </p>
