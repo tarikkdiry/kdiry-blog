@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from '../components/Hero/hero';
 import BlogPostLayout from '../layouts/BlogPost/blogPostLayout';
 import blogContentStyle from '../layouts/BlogPost/blogPostLayout.module.scss';
+import Layout from '../layouts/layout';
 import '../styles/global.scss';
 
 // FOR MARKDOWN
@@ -43,13 +44,13 @@ export const query = graphql`
 const Blog = (props) => {
     const options = {
         // For image rendering
-        renderNode: {
-            "embedded-asset-block": (node) => {
-                const alt = node.data.target.fields.title['en-US']
-                const url = node.data.target.fields.file['en-US'].url
-                return <img alt={alt} src={url}/>
-            }
-        }
+        // renderNode: {
+        //     "embedded-asset-block": (node) => {
+        //         const alt = node.data.target.fields.title['en-US']
+        //         const url = node.data.target.fields.file['en-US'].url
+        //         return <img alt={alt} src={url}/>
+        //     }
+        // }
     }    
 
     // const blogHero = () => {

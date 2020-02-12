@@ -12,7 +12,7 @@ const Layout = (props) => {
             <Helmet>
                 <link rel="icon" href={favicon}></link>
             </Helmet>
-            <Header></Header>
+            <Header></Header> 
             <div className={layoutStyles.content}>
                 {props.children}
             </div>

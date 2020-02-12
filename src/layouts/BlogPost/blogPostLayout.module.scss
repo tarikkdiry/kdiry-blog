@@ -1,29 +1,24 @@
 .container {
-    flex-grow: 1;
+    // flex-grow: 1;
     background-color: #1D2731;
-
-    display: flex;
+    
+    // display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    // min-height: 100vh;
     color: #F0F0F2;
 }
 
 
 .content {
     padding: 1%;
-    padding-top: 5%;
-    // padding-left: 15%;
     width: 35%;
-    // width: 380px;
+
+    align-items: center;
     margin: 0 auto;
 
     img {
         width: 100%;
     }
-
-    // p {
-    //     width: 100%;
-    // }
 
     hr {
         height: 1px;
