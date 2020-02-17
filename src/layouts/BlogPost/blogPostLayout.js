@@ -7,9 +7,9 @@ const BlogPostLayout = (props) => {
     return (
         <div className={blogPostLayoutStyles.container}>
             <Header></Header>
-            <div className={blogPostLayoutStyles.hero}>
-                {props.children}
-            </div>
+                <div className={blogPostLayoutStyles.hero}>
+                    {props.children}
+                </div>
         </div>
     )
 }
