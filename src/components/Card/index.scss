@@ -2,6 +2,10 @@ $font-white: #F2EDE9;
 
 .contentCard {
     width: 50%;
+    
+    @media screen and (max-width: '480px') {
+        width: 100%;
+    }
 }
 
 .container {

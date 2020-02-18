@@ -21,7 +21,7 @@ const Timeline = () => {
                     iconStyle={{ background: '#F2EDE9', color: '#F2EDE9' }}
                     // icon={<WorkIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title" style={{ color: '#FD9374' }}>Attending Stevens Institute of Technology</h3>
+                    <h3 className="vertical-timeline-element-title" style={{ color: '$font-white' }}>Attending Stevens Institute of Technology</h3>
                     {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
                     <p style={{ color: '#F2EDE9' }}>
                         Started attending <i style={{fontWeight: 'bold', color: '#FD9374'}}> Stevens Institute of Technology</i>, majoring in <bold>Software Engineering</bold> under the School of Systems and Enterprise.
@@ -48,7 +48,7 @@ const Timeline = () => {
                     iconStyle={{ background: '#F2EDE9', color: '#F2EDE9' }}
                     // icon={<WorkIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title" style={{ color: '#FD9374' }}>iThreat Cyber Group</h3>
+                    <h3 className="vertical-timeline-element-title" style={{ color: '$font-white' }}>iThreat Cyber Group</h3>
                     {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
                     <p style={{ color: '#F2EDE9' }}>
                         Software Engineering Intern for cyber threat intelligence company <i style={{color: '#FD9374'}}>iThreat Cyber Group.</i> Primarily focused on front-end web development and code refactoring.
@@ -69,7 +69,7 @@ const Timeline = () => {
                     iconStyle={{ background: '#F2EDE9', color: '#F2EDE9' }}
                     // icon={<WorkIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title" style={{ color: '#FD9374' }}>Marsh & McLennan Companies</h3>
+                    <h3 className="vertical-timeline-element-title" style={{ color: '$font-white' }}>Marsh & McLennan Companies</h3>
                     {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
                     <p style={{ color: '#F2EDE9' }}>
                         Joined the HRIS team as a SharePoint Content Administrator where I was responsible for redesigning existing and building new community sites within the SharePoint environment.
@@ -93,7 +93,7 @@ const Timeline = () => {
                     iconStyle={{ background: '#F2EDE9', color: '#F2EDE9' }}
                     // icon={<WorkIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title" style={{ color: '#FD9374' }}>Graduated Stevens Institute of Technology <br></br><br></br></h3>
+                    <h3 className="vertical-timeline-element-title" style={{ color: '$font-white' }}>Graduated Stevens Institute of Technology <br></br><br></br></h3>
                     <h5 style={{ color: '#FD9374' }}>B.E. Software Engineering</h5>
                     {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
                     <p style={{ color: '#F2EDE9' }}>
@@ -111,7 +111,7 @@ const Timeline = () => {
                     iconStyle={{ background: '#F2EDE9', color: '#F2EDE9' }}
                     // icon={<WorkIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title" style={{ color: '#FD9374' }}>Marsh & McLennan Companies</h3>
+                    <h3 className="vertical-timeline-element-title" style={{ color: '$font-white' }}>Marsh & McLennan Companies</h3>
                     {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
                     <p style={{ color: '#F2EDE9' }}>
                         Began full-time in my new role, Applications Developer. 

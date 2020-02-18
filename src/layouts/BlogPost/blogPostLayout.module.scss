@@ -1,8 +1,14 @@
 .container {
-   flex-direction: column;
+
+}
+
+.hero {
+    display: flex;
 }
 
 .content {
+    width: 480px;
+    
     img {
         width: 100%;
     }
