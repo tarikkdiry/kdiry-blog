@@ -10,6 +10,7 @@ const Card = ({title, date, url, forward}) => {
                 <h3>{title}</h3>
                 <h6>{forward}</h6>
                 <br></br>
+                <hr></hr>
             </div>
         </div>
     )

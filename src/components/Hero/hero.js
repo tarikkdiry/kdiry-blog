@@ -10,6 +10,7 @@ const Hero = ({title, date, forward, content}) => {
                 <h3>{date + " | Tarik Kdiry"}</h3>
                 <p>{forward}</p>
             </div>
+            <br></br>
             <hr></hr>
         </div>
     )

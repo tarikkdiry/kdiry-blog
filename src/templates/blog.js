@@ -3,7 +3,8 @@ import React from 'react';
 import Hero from '../components/Hero/hero';
 // import BlogPostLayout from '../layouts/BlogPost/blogPostLayout';
 import blogContentStyle from '../layouts/BlogPost/blogPostLayout.module.scss';
-import Layout from '../layouts/layout';
+// import Layout from '../layouts/layout';
+import BlogPostLayout from '../layouts/BlogPost/blogPostLayout';
 import '../styles/global.scss';
 
 // FOR MARKDOWN
@@ -70,18 +71,20 @@ const Blog = (props) => {
     
     return (
         // GO BACK AND REMOVE STYLE COUPLING 
-        <Layout>
+        <BlogPostLayout>
             <div className={blogContentStyle.container}>
-                <Hero
-                    title={props.data.contentfulBlogPost.title}
-                    date={props.data.contentfulBlogPost.publishedDate}
-                    forward={props.data.contentfulBlogPost.forward}
-                />
+                <div className={blogContentStyle.hero}>
+                    <Hero
+                        title={props.data.contentfulBlogPost.title}
+                        date={props.data.contentfulBlogPost.publishedDate}
+                        forward={props.data.contentfulBlogPost.forward}
+                    />
+                </div>
                 <div className={blogContentStyle.content}>
                     {documentToReactComponents(props.data.contentfulBlogPost.body.json, options)}
                 </div>
             </div>
-        </Layout>
+        </BlogPostLayout>
     )
 }
 

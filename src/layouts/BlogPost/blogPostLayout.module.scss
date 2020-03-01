@@ -1,13 +1,26 @@
-.container {
+$break-small: 480px;
+$break-large: 1200px;
 
+.container {
+    background-color: #1D2731;
+    margin: 0 auto;
 }
 
 .hero {
-    display: flex;
+    min-height: 100vh;
 }
 
 .content {
     width: 480px;
+    margin: 0 auto;
+    // padding-left: 10%;
+    // padding-right: 10%;
+
+    @media screen and (max-width: $break-small) {
+        // padding-left: 10%;
+        // padding-right: 10%;
+        color: red;
+    }
     
     img {
         width: 100%;
