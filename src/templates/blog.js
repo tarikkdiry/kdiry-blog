@@ -83,6 +83,7 @@ const Blog = (props) => {
                 <div className={blogContentStyle.content}>
                     {documentToReactComponents(props.data.contentfulBlogPost.body.json, options)}
                 </div>
+                <br></br>
             </div>
         </BlogPostLayout>
     )

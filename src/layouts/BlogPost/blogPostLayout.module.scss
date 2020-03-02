@@ -4,22 +4,28 @@ $break-large: 1200px;
 .container {
     background-color: #1D2731;
     margin: 0 auto;
+    min-height: 100vh;
 }
 
 .hero {
     min-height: 100vh;
+
+    @media screen and (max-width: $break-small) {
+        margin-top: 50%;
+    }
+    
 }
 
 .content {
-    width: 480px;
+    width: 30%;
     margin: 0 auto;
     // padding-left: 10%;
     // padding-right: 10%;
 
     @media screen and (max-width: $break-small) {
-        // padding-left: 10%;
-        // padding-right: 10%;
-        color: red;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 100%
     }
     
     img {

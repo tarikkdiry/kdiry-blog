@@ -11,7 +11,7 @@ const Hero = ({title, date, forward, content}) => {
                 <p>{forward}</p>
             </div>
             <br></br>
-            <hr></hr>
+            {/* <hr></hr> */}
         </div>
     )
 }
