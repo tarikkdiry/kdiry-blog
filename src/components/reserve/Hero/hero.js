@@ -1,17 +1,21 @@
 import React from 'react';
 import heroStyles from '../Hero/hero.module.scss';
 
-const Hero = ({title, date, forward, content}) => {
+const Hero = ({title, date, image, content}) => {
+    const defaultImage = "";
+    const backgroundImage = image;
+
+    // WORK ON THIS
+    if (!image) {
+        image = defaultImage;
+    }
     
     return (
         <div className={heroStyles.heroContainer}>
             <div className={heroStyles.content}>
                 <h1>{title}</h1>
-                <h3>{date + " | Tarik Kdiry"}</h3>
-                <p>{forward}</p>
+                <p>{date + " | Tarik Kdiry"}</p>
             </div>
-            <br></br>
-            {/* <hr></hr> */}
         </div>
     )
 }

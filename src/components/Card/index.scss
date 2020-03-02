@@ -1,7 +1,11 @@
 $font-white: #F2EDE9;
 
 .contentCard {
-    width: 100%;
+    width: 50%;
+    
+    @media screen and (max-width: '480px') {
+        width: 100%;
+    }
 }
 
 .container {
@@ -11,7 +15,6 @@ $font-white: #F2EDE9;
 
     h6 {
         font-weight: normal;
-        font-size: 12pt;
         color: $font-white;
     }
 
@@ -19,5 +22,9 @@ $font-white: #F2EDE9;
         font-size: 10pt;
         margin-bottom: 10px;
         color: #FD9374;
+    }
+
+    hr {
+        background-color: #FD9374;
     }
 }

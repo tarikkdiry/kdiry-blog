@@ -1,7 +1,8 @@
 .header {
     padding: 1.5rem; 
-    display: flex;
+    // display: block;
     flex-direction: column;
+    justify-content: space-between;
     width: 100%;
 
     .nav-item {
@@ -20,12 +21,12 @@
     .logo {
         height: 40px;
         width: 50px;
-        flex: auto;
+        // flex: auto;
     }
     
-    .right-items {
-        flex: auto;
-        position: fixed;
-    }
+    // .right-items {
+    //     flex: auto;
+    //     position: fixed;
+    // }
 }
 

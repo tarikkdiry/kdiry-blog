@@ -97,7 +97,11 @@ const Timeline = () => {
                     <h5 style={{ color: '#FD9374' }}>B.E. Software Engineering</h5>
                     {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
                     <p style={{ color: '#F2EDE9' }}>
+<<<<<<< HEAD
                         Concluded my time at Stevens as an undergraduate student and obtaining a Bachelor of Engineering in Software Engineering. 
+=======
+                        Joined the HRIS team as a SharePoint Content Administrator where I was responsible for redesigning existing and building new community sites within the SharePoint environment.
+>>>>>>> develop
                     </p>
                     <p style={{ color: '#F2EDE9' }}>
                         Hoboken, NJ

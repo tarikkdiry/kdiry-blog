@@ -1,39 +1,36 @@
-// $bg-img: url('../../../public/images/adrien-olichon.png');
-
 .heroContainer {
-    background-color: #81878C;
-    // background-color: #FD9374;
-    height: 90vh;
-    // background-image: $bg-img;
+    height: 60vh;
+    width: 60%;
+    padding: 0;
+    margin-left: 20%;
+    margin-top: 20%;
+    flex-direction: column;
+    position: absolute;
 }
 
 .content {
-    position: absolute;
-    text-align: center;
+    display: inline-block;
     font-color: #F0F0F2;
-    position: relative;
-    top: 50%;
+    position: absolute;
     transform: translateY(-50%);
     -webkit-transform: translateY(-90%);
     -ms-transform: translateY(-50%);
 
     h1 {
-        font-size: 50pt;
-
         @media screen and (max-width: 400px) {
-            font-size: 25pt;
+            font-size: 30pt;
         }
-
     }
 
-    p {
-        font-size: 25pt;
+    h3 {
         color: #FD9374;
-
         @media screen and (max-width: 400px) {
-            margin-left: 0%;
-            margin-right: 0%;
+            font-size: 20pt;
         }
+    }
+
+    hr {
+        background-color: #FD9374;
     }
 }
 

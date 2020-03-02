@@ -7,9 +7,10 @@ const Card = ({title, date, url, forward}) => {
         <div class="contentCard">
             <div class="container">
                 <p>{date}</p>
-                <h4>{title}</h4>
+                <h3>{title}</h3>
                 <h6>{forward}</h6>
                 <br></br>
+                <hr></hr>
             </div>
         </div>
     )

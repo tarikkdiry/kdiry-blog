@@ -17,11 +17,9 @@ const Header = () => {
         <header className={headerStyles.header}>
             {/* LEFT SIDE */}
             <nav class="level">
-                <div to="/">
                     <Link to="/">
                         <img src={logo} className={headerStyles.logo} alt="tk" to="/"></img>
                     </Link>
-                </div>
             {/* RIGHT SIDE */}
                 <div class="right-items">
                     <ul>
