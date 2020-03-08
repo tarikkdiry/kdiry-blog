@@ -1,8 +1,7 @@
 .header {
-    padding: 1.5rem; 
-    // display: block;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 25px; 
+    display: flex;
+    // flex-direction: row;
     width: 100%;
 
     .nav-item {
@@ -23,10 +22,5 @@
         width: 50px;
         // flex: auto;
     }
-    
-    // .right-items {
-    //     flex: auto;
-    //     position: fixed;
-    // }
 }
 
