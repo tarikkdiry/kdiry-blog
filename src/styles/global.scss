@@ -12,7 +12,7 @@ $break-small: 480px;
 $break-large: 1200px;
 
 html {
-    border-top: 5px solid $top-border;
+    // border-top: 5px solid $top-border;
     background-color: $background-color;
 
     // Font sizes
@@ -45,9 +45,9 @@ html {
         font-weight: normal;
     }
 
-    h5 {
+    // h5 {
 
-    }
+    // }
 
     h6 { // Special for image captions - DON'T USE FOR ANYTHING ELSE
         font-size: 12pt;
