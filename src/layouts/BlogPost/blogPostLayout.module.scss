@@ -3,24 +3,28 @@ $break-large: 1200px;
 
 .container {
     background-color: #1D2731;
-    margin: 0 auto;
     min-height: 100vh;
+    flex-direction: column;
 }
 
 .hero {
-    min-height: 100vh;
-
+    min-height: 600px;
     @media screen and (max-width: $break-small) {
-        margin-top: 50%;
+        margin-top: 30%;
     }
+    margin: auto;
+    width: 60%;
+    margin-top: 100px;
+    // position: absolute;
+    // transform: translateY(-50%);
+    // -webkit-transform: translateY(-90%);
+    // -ms-transform: translateY(-50%);
     
 }
 
 .content {
-    width: 30%;
+    width: 45%;
     margin: 0 auto;
-    // padding-left: 10%;
-    // padding-right: 10%;
 
     @media screen and (max-width: $break-small) {
         padding-left: 10%;
