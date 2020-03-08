@@ -1,9 +1,14 @@
+$break-small: 480px;
+
 .heroContainer {
-    height: 60vh;
+    height: 300px;
     width: 60%;
-    padding: 0;
-    margin-left: 20%;
-    margin-top: 20%;
+    // @media screen and (max-width: $break-small) {
+    //     width: 100%;
+    // }
+    // padding: 0;
+    // margin-left: 20%;
+    // margin-top: 20%;
     flex-direction: column;
     position: absolute;
 }
@@ -11,10 +16,10 @@
 .content {
     display: inline-block;
     font-color: #F0F0F2;
-    position: absolute;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-90%);
-    -ms-transform: translateY(-50%);
+    // position: absolute;
+    // transform: translateY(-50%);
+    // -webkit-transform: translateY(-90%);
+    // -ms-transform: translateY(-50%);
 
     h1 {
         @media screen and (max-width: 400px) {

@@ -11,7 +11,6 @@ const IndexPage = () => {
             <Head title="Home"/>
             <Greeting></Greeting>
             <About></About>
-            {/* <ContactForm></ContactForm> */}
         </Layout>    
     )
 }

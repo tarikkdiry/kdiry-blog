@@ -53,21 +53,6 @@ const Blog = (props) => {
             }
         }
     }    
-
-    // const blogHero = () => {
-    //     return (
-    //         <Hero
-    //             title={props.data.contentfulBlogPost.title}
-    //             date={props.data.contentfulBlogPost.publishedDate}
-    //         />
-    //     )
-    // }
-
-    // const blogContent = () => {
-    //     return (
-    //         documentToReactComponents(props.data.contentfulBlogPost.body.json, options)
-    //     )
-    // }
     
     return (
         // GO BACK AND REMOVE STYLE COUPLING 
