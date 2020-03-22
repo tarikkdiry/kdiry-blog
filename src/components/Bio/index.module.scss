@@ -1,8 +1,9 @@
-.container {
-    display: flex;
-    flex-direction: row;
-}
+$break-small: 480px;
+$break-large: 1200px;
 
+.container {
+    flex: 1;
+}
 
 a {
     color: #FD9374;
@@ -12,20 +13,16 @@ a:hover {
     filter: brightness(55%);
 }
 
-.me {
-    color: #FD9374;
-}
-
 .bio {
     display: flex;
 }
 
-.profile {
-    padding-left: 10%;
-}
-
 .info {
-    max-width: 70%;
+    max-width: 90%;
+
+    @media screen and (max-width: $break-small) {
+        max-width: 100%
+    }
 }
 
 @media screen and (max-width: 600px) {

@@ -1,4 +1,26 @@
+$break-small: 480px;
+$break-large: 1200px;
+
 .container {
+    .about {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        // background-color: red;
+
+        .profile {
+            margin-top: 5%;
+            margin-bottom: 10%;
+            margin-right: 5%;
+            @media screen and (max-width: $break-small) {
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+
 
     a {
         color: #FD9374;

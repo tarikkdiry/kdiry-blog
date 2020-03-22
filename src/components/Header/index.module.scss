@@ -1,8 +1,14 @@
-.header {
+.container {
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 15px 25px; 
-    // display: inline-block;
-    // flex-direction: row;
     width: 100%;
+
+    .header {
+        // align-items: flex-end;
+        // justify-content: space-between;
+    }
 
     .nav-item {
         color: #F0F0F2;
@@ -20,7 +26,6 @@
     .logo {
         height: 40px;
         width: 50px;
-        // flex: auto;
     }
 }
 
