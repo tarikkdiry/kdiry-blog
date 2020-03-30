@@ -25,4 +25,8 @@ $break-large: 1200px;
     a {
         color: #FD9374;
     }
+
+    a:hover {
+        filter: brightness(55%);
+    }
 }

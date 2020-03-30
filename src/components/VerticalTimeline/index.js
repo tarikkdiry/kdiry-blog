@@ -71,7 +71,7 @@ const Timeline = () => {
                     iconStyle={{ background: '#F2EDE9', color: '#F2EDE9' }}
                     // icon={<WorkIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title" style={{ color: '$font-white' }}>Marsh & McLennan Companies</h3>
+                    <h3 className="vertical-timeline-element-title" style={{ color: '$font-white' }}>Intern at Marsh & McLennan Companies</h3>
                     <p style={{ color: '#F2EDE9' }}>
                         Hoboken, NJ | New York, NY
                     </p>
@@ -93,15 +93,15 @@ const Timeline = () => {
                     iconStyle={{ background: '#F2EDE9', color: '#F2EDE9' }}
                     // icon={<WorkIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title" style={{ color: '$font-white' }}>Marsh & McLennan Companies</h3>
+                    <h3 className="vertical-timeline-element-title" style={{ color: '$font-white' }}>Applications Developer at Marsh & McLennan Companies</h3>
                     {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
                     <p style={{ color: '#F2EDE9' }}>
-                        Hoboken, NJ | New York, NY
+                        Hoboken, NJ | New York City, NY
                     </p>
                     <br></br>
                     <hr></hr>
                     <p style={{ color: '#F2EDE9' }}>
-                        Started full-time in my new role, Applications Developer, where I currently spend my time finding problems I can solve and tools I can build using Javascript.
+                        Started full-time in my new role where I currently spend my time finding problems I can solve and tools I can build using Javascript.
                     </p>
                     <br></br>
                     <h4 style={{ color: '#FD9374' }}>
