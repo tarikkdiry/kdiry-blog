@@ -31,10 +31,7 @@ const Timeline = () => {
                         Started attending <a href="https://www.stevens.edu/" target="_blank"><i style={{color: '#FD9374'}}>Stevens Institute of Technology</i></a>, majoring in <bold>Software Engineering</bold> under the School of Systems and Enterprise.
                     </p>
                     <p style={{color: '#F2EDE9' }}>
-                        During my time here I became the Editor-in-Chief of the campus newspaper,<a href="https://thestute.com/" target="_blank"><i style={{color: '#FD9374'}}> The Stute</i></a>.
-                    </p>
-                    <p style={{ color: '#F2EDE9'}}>
-                        Teacher's Assistant for course E-115 Introduction to Programming, an exploratory programming course taught in C++ for all Freshman Engineering students.
+                        During my 4 years here I was most notably an <a href="https://thestute.com/" target="_blank">Editor-in-Chief</a>, and a Teacher's Assistant.
                     </p>
                     <br></br>
                     <h4 style={{ color: '#FD9374' }}>

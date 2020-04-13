@@ -1,18 +1,23 @@
 .container {
     flex: 1;
     flex-direction: row;
-    justify-content: space-between;
+    // justify-content: space-between;
     padding: 15px 25px; 
     width: 100%;
+    // background-color: red;
 
     .header {
         // align-items: flex-end;
         // justify-content: space-between;
+        // background-color: red;
+
     }
 
     .nav-item {
         color: #F0F0F2;
         font-size: 2.0rem;
+        // background-color: red;
+
     }
     
     .nav-item:hover {
