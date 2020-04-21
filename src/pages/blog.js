@@ -45,7 +45,7 @@ const BlogPage = () => {
                                 date={edge.node.publishedDate}
                                 url={`/blog/${edge.node.slug}`}
                                 forward={edge.node.forward}
-                                img="https://imgur.com/gallery/Xxpto29"
+                                // img="https://imgur.com/gallery/Xxpto29"
                             />
                             <br></br>
                         </Link>
