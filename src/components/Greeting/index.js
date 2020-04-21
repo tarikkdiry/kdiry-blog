@@ -1,8 +1,8 @@
-import { Link } from 'gatsby';
 import React from "react";
-import Social from "../Social";
-import '../../styles/global.scss';
+import { Link } from 'gatsby';
+import Social from '../Social/SocialIcons/Facebook/index';
 import greetingStyles from './index.module.scss';
+import '../../styles/global.scss';
 
 const Greeting = () => {
     return (
