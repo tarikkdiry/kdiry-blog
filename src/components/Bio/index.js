@@ -19,9 +19,9 @@ const Bio = () => {
                         While I do try to pursue new interests, I try to incorporate writing into everything that I do.
                     </p>
                     <p>With that, check out my <a href='https://tarikkdiry.com/blog/' target="_blank">blog</a> where I try to regularly update you on any of my travels, fashion tidbits, coding, and everything in between.</p>
-                    <p>
+                    {/* <p>
                         Check out my timeline below!
-                    </p>
+                    </p> */}
                     </div>
                 
             </div>

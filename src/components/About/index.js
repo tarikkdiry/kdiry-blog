@@ -17,7 +17,7 @@ const About = () => {
             </div>
             <br></br>
             <div className={aboutStyles.timeline}>
-                <Timeline></Timeline>
+                {/* <Timeline></Timeline> */}
             </div>
             <h6></h6>
         </div>

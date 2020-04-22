@@ -16,12 +16,15 @@ const Header = () => {
     return (
         <header className={headerStyles.container}>
             <nav class="level">
-                <div className={headerStyles.header}>
+                {/* <div className={headerStyles.header}> */}
                     <Link to="/">
                         <img src={logo} className={headerStyles.logo} alt="tk" to="/"></img>
                     </Link>
-                </div>
-                <p><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link></p>
+                {/* </div> */}
+                <p>
+                    <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link>
+                </p>
+                {/* <p><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link></p> */}
             </nav>
         </header>
     )
