@@ -1,7 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: 'Tarik',
-    author: 'Tarik Kdiry'
+    author: 'Tarik Kdiry',
+    email: 'mailto:tarik.kdiry@gmail.com',
+    facebook: 'https://www.facebook.com/Tarik.Kdiry/',
+    instagram: 'https://www.instagram.com/tarik_kdiry/',
+    twitter: 'https://twitter.com/ehsotarik',
+    linkedIn: 'https://www.linkedin.com/in/tarik-kdiry-0b62b8100/',
+    gitHub: 'https://github.com/tarikkdiry'
   },
   plugins: [
     // `gatsby-plugin-sass`,

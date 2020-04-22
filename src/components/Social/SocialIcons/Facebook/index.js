@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import Icon from '../../../../assets/icons/social/instagram.png';
 import facebookStyles from './index.module.scss';
 
 const Facebook = () => {
@@ -9,9 +8,9 @@ const Facebook = () => {
 
     return (
         <div className={facebookStyles.container}>
-            <div className={facebookStyles.logo}>
-                {/* <FontAwesomeIcon icon={} /> */}
-            </div>
+            <a href="http://google.com">
+                <img src={Icon} className={facebookStyles.logo}></img>
+            </a>
         </div>
     )
 }

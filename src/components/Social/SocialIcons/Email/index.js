@@ -1,6 +1,6 @@
 import React from 'react';
 import { useStaticQuery } from 'gatsby';
-import Icon from '../../../../assets/icons/social/instagram.png';
+import Icon from '../../../../assets/icons/social/email.png';
 import styles from './index.module.scss';
 
 const Instagram = () => {
