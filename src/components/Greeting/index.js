@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from 'gatsby';
-import EmailSocial from '../Social/SocialIcons/Email/index';
-import InstagramSocial from '../Social/SocialIcons/Instagram/index';
+import SocialRow from '../Social/Row/index';
 import greetingStyles from './index.module.scss';
 import '../../styles/global.scss';
 
@@ -15,8 +14,7 @@ const Greeting = () => {
                 <h4>I am a Software Engineer based out of Hoboken, NJ and operating globally from the New York City area.</h4>
                 <h4>Let's connect! While you're here, check out my <Link to='/blog' target="_blank" className={greetingStyles.links}>blog!</Link></h4>
             </div>
-            {/* <EmailSocial></EmailSocial> */}
-            {/* <InstagramSocial></InstagramSocial> */}
+            <SocialRow></SocialRow>
         </div>
     )
 }

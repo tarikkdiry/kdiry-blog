@@ -1,16 +1,14 @@
 import React from 'react';
 import { useStaticQuery } from 'gatsby';
-import Icon from '../../../../assets/icons/social/instagram.png';
+import Icon from '../../../../assets/icons/social/github.png';
 import styles from './index.module.scss';
 
-const Instagram = () => {
-    const link = "http://google.com";
-
+const GitHub = () => {
     const data = useStaticQuery(graphql`
         query {
             site {
                 siteMetadata {
-                    instagram
+                    gitHub
                 }
             }
         }
@@ -18,11 +16,11 @@ const Instagram = () => {
 
     return (
         <div className={styles.container}>
-            <a href={data.site.siteMetadata.instagram}>
+            <a href={data.site.siteMetadata.gitHub} target="_blank">
                 <img src={Icon} className={styles.logo}></img>
             </a>
         </div>
     )
 }
 
-export default Instagram;
+export default GitHub;
