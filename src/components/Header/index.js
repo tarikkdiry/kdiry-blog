@@ -30,8 +30,9 @@ const Header = () => {
         <nav class="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor: '#1D2731', padding: 30}}>
             <div class="navbar-brand">
             
-                <img src={logo} className={headerStyles.logo} style={{height: '40px', width: '50px'}} alt="tk" to="/"></img>
-          
+            <a href="/">
+                <img src={logo} className={headerStyles.logo} style={{height: '40px', width: '50px'}} alt="tk" to="https://tarikkdiry.com"></img>
+            </a>
 
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
@@ -70,9 +71,9 @@ const Header = () => {
 
                 <div class="navbar-end">
                     <div class="navbar-item">
-                    <p>
+                    <h3>
                         <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link>
-                    </p>
+                    </h3>
                     </div>
                     {/* <div class="navbar-item">
                         <p>
