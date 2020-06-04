@@ -8,3 +8,5 @@
   tarikkdiry.com | blog
 </h1>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/144323b2-6359-4ea7-8e4b-434c2fa072b3/deploy-status)](https://app.netlify.com/sites/tarikkdiry/deploys)
+
